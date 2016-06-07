@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txtVideoBaslik"
+                android:background="#D32F2F"
+                android:textColor="#ffffff"
+                android:paddingTop="10dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp" />
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:id="@+id/youtubeVideoPlayer" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageView"
+                    android:background="@drawable/trt" />
+
+                <TextView
+                    android:layout_width="195dp"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Yükleyen Kanal"
+                    android:id="@+id/txtKanal"
+                    android:textColor="#000000"
+                    android:paddingTop="13dp"
+                    android:paddingLeft="13dp"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:text="Abone Ol"
+                    android:id="@+id/button"
+                    android:background="@drawable/border"
+                    android:textColor="#ffffff"
+                    android:onClick="aboneOl" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bölüm Açıklaması"
+                android:id="@+id/textView"
+                android:textColor="#ffffff"
+                android:background="#D32F2F"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Açıklama"
+                android:id="@+id/txtVideoAciklama"
+                android:textSize="17dp"
+                android:background="#F1F1F1"
+                android:padding="10dp"
+                android:textColor="#393333" />
+
+            <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bolumList"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnWatch"
+                    android:layout_weight=".50"
+                    android:background="#607D8B"
+                    android:src="@drawable/ic_face_black_24dp"
+                    android:padding="5dp" />
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLike"
+                    android:layout_weight=".50"
+                    android:background="#607D8B"
+                    android:src="@drawable/ic_thumb_up_black_24dp"
+                    android:padding="5dp" />
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnUnlike"
+                    android:layout_weight=".50"
+                    android:src="@drawable/ic_thumb_down_black_24dp"
+                    android:background="#607D8B"
+                    android:padding="5dp" />
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Watch"
+                    android:id="@+id/txtWatch"
+                    android:layout_weight=".50"
+                    android:background="#607D8B"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Like"
+                    android:id="@+id/txtLike"
+                    android:layout_weight=".50"
+                    android:background="#607D8B"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Dislike"
+                    android:id="@+id/txtDislike"
+                    android:layout_weight=".50"
+                    android:background="#607D8B"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
