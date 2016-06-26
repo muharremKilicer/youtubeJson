@@ -4,9 +4,9 @@ Android cihazınızdan TRT Çocuk kanalına ait olan çizgi filmler arasından s
 
 #####Resimler
 
-<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/img/kahramanlar1.png" width="200"/>
-<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/img/kahramanlar2.png" width="200"/>
-<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/img/bolumler1.png" width="200"/>
-<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/img/bolumler2.png" width="200"/>
-<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/img/video1.png" width="200"/>
-<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/img/video2.png" width="200"/>
+<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/images/kahramanlar1.png" width="200"/>
+<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/images/kahramanlar2.png" width="200"/>
+<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/images/bolumler1.png" width="200"/>
+<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/images/bolumler2.png" width="200"/>
+<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/images/video1.png" width="200"/>
+<img src="https://github.com/muharremKilicer/youtubeJsonCizgiFilm/blob/master/images/video2.png" width="200"/>
